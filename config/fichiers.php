@@ -1,6 +1,6 @@
 <?php
 
 return [
-  'svg' => 'svg/',
-  'json' => 'resources/json/',
+  'svg' => 'storage/img/',
+  'json' => 'storage/json/',
 ];
