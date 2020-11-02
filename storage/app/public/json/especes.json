@@ -1,0 +1,20 @@
+{
+  "caprins" : {
+    "sensibilite" : 2,
+    "nom" : "chèvres",
+    "type" : "caprins",
+    "icone" : "caprin_seul.svg"
+  },
+  "ovins" : {
+    "sensibilite" : 1,
+    "nom" : "brebis",
+    "type" : "ovins",
+    "icone" : "ovin_seul.svg"
+  },
+  "ovins_agneaux" : {
+    "sensibilite" : 3,
+    "nom" : "brebis + agneaux",
+    "type" : "ovins_agneaux",
+    "icone" : "ovins_agneaux_seul.svg"
+  }
+}
