@@ -41,6 +41,7 @@
       <script src="{{asset('js/jQRangeSlider-5.7.2/jQDateRangeSlider-withRuler-min.js')}}"></script>
       <script src="{{asset('js/jquery.cookie.js')}}"></script>
       <script src="{{asset('js/constantes.js')}}"></script>
+      <script src="{{asset('js/verifToutSaisi.js')}}"></script>
       <script src="{{asset('js/troupeau.js')}}"></script>
       <script src="{{asset('js/parcelle.js')}}"></script>
       <script src="{{asset('js/strongle.js')}}"></script>

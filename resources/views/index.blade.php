@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-  <form action="{{ route('action') }}" method="post">
+  <form id="donnees" action="{{ route('action') }}" method="post">
 @csrf
 <div class="container-fluid">
   <div class="main-titre titre">
@@ -68,7 +68,7 @@
 
     <input type="checkbox" name="action" value="aucune" style="display:none">
 
-    <input type="submit" name="submit" value="C'est parti !" class="btn btn-success rounded-0 btn-lg">
+    <input  id="cestparti" type="submit"  value="C'est parti !" class="btn btn-success rounded-0 btn-lg">
 
     <div id="demo" class="btn btn-lg btn-warning rounded-0 demo">
 

@@ -47,6 +47,7 @@ $("#pas_de_temps").on('click', function() {
 //############################## CHOIX DU TROUPEAU #############################
 $(".image_troupeau").on('click', function() {
   var troupeau = $(this).attr('id');
+  console.log(troupeau);
   $('.image_troupeau').css('box-shadow', '2px 2px 6px black');
   $('input[type = "radio"]').each(function() {
     if($(this).attr('value') == troupeau)
