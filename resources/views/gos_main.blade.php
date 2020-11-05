@@ -65,7 +65,7 @@
                 infestation="{{$troupeau->infestation()->count()}}"
                 contaminant = "{{$troupeau->contaminant()*$troupeau->taille()/$param_modele["TAUX_TROUPEAU_CONTAMINANT"]["valeur"]}}"
                 lieu="chevrerie">
-                <img src="{{asset('storage/img/'.$troupeau->espece().'.svg')}}" alt="{{$troupeau->espece()}}">
+                <img src="{{url('svg/'.$troupeau->espece().'.svg')}}" alt="{{$troupeau->espece()}}">
             @foreach ($troupeau->infestation() as $strongle)
               <div class="strongleIn" etat="{{$strongle->etat()}}">
 
