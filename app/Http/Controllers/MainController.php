@@ -22,6 +22,11 @@ class MainController extends Controller
 
   protected $exploitation;
 
+    public function avertissement()
+    {
+      return view('avertissement');
+    }
+
     public function index()
     {
       $parcelles_type = new ParcellesTypes();
@@ -39,7 +44,7 @@ class MainController extends Controller
       {
         case 'action': // mise en oeuvre du jeu en fonction des parametres
           $exploitation = new ExploitationFactory($request->all());
-          
+
           break;
 
         case 'demo': // mis en jeu de la démonstration

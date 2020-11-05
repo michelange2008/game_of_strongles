@@ -10,7 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/' , ['uses' => 'MainController@index', 'as' => 'index']);
+Route::get('/' , ['uses' => 'MainController@avertissement', 'as' => 'avertissement']);
+
+Route::get('/index' , ['uses' => 'MainController@index', 'as' => 'index']);
 
 Route::post('/action', ['uses' => 'MainController@action', 'as' => 'action']);
 

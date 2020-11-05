@@ -14,7 +14,7 @@
         <!-- Styles -->
         <link rel="icon" href="{{url('favicon.ico')}}" />
     </head>
-    <body>
+    <body style="background:lightgreen">
       @yield('entete')
       @yield('menu')
       @yield('content')
