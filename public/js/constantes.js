@@ -2,7 +2,7 @@
 // Constantes reprises depuis le fichier param.json mis en cookie àl'ouverture de la page
 var url = document.location.origin;
 
-$.getJSON(url + "/game_of_strongles/public/storage/json/parametres.json", function(resultat){
+$.getJSON(url + "/game_of_strongles/public/json/parametres.json", function(resultat){
   $.cookie('parametres', JSON.stringify(resultat));
 });
 
