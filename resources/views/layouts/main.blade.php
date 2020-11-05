@@ -12,7 +12,7 @@
         <link href="{{URL::asset('css')}}/jquery-confirm.css" rel="stylesheet" type="text/css" />
         {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.css"> --}}
         <!-- Styles -->
-        <link rel="icon" href="{{url('storage/favicon.ico')}}" />
+        <link rel="icon" href="{{url('favicon.ico')}}" />
     </head>
     <body>
       @yield('entete')
