@@ -53,7 +53,7 @@
         <li>Le parcellaire est dessiné avec une taille proportionnelle à sa superficie.</li>
         <li>Les larves de strongles qui ont survécu l'hiver sont visibles sous forme de points rouges</li>
         <li>Votre troupeau est encore en bâtiment mais par un cliqué-glissé vous pouvez le déplacer dans les parcelles.</li>
-        <li>Puis, en appuyant sur la barre espace, vous avancez à chaque fois de 5 jours. Sur ce laps de temps, votre troupeau s'infeste et aussi excrète des oeufs de parasites.</li>
+        <li>Puis, en appuyant sur la <strong>flèche droite</strong>, vous avancez à chaque fois de 5 jours. Sur ce laps de temps, votre troupeau s'infeste et aussi excrète des oeufs de parasites.</li>
         <li>Vous pouvez suivre les différentes données dans la colonne de gauche.</li>
         <li>A tout moment, vous pouvez déplacer votre troupeau dans une autre parcelle ou même le rentrer en bâtiment.</li>
         <li>L'objectif est de pâturer toute la saison sans que le troupeau ne soit trop infesté !</li>
